@@ -12,9 +12,10 @@ def encryptCaesar(str, n):
 
 
 def main():
-    test = "PURPLE"
+    test = "PuRPLE"
     output = encryptCaesar(test, 4)
     decrypt = (encryptCaesar(output, 22))
+    print(output)
     print(decrypt)
     
 if __name__ == "__main__":
